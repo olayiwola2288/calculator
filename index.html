@@ -29,7 +29,8 @@
         <div class="alert alert-primary col-4 mx-3 mt-4 w-100" id="show">0</div>
     <section class="" style="display: flex;  flex:1; justify-content: center; flex-wrap: wrap; justify-content: space-evenly;">
 
-            <button class="btn btn-secondary rounded-5  my-2  " style="width: 44%;" onclick="clearBoard()">c</button>
+            <button class="btn btn-secondary rounded-5  my-2  " onclick="clearBoard()">c</button>
+            <button class="btn btn-dark rounded-5  my-2" onclick="theNumber('**')">^</button>
             <button class="btn btn-dark rounded-5  my-2" onclick="theNumber('%')">%</button>
             <button class="btn btn-warning rounded-5  my-2" onclick="theNumber('/')">/</button>
 
@@ -49,7 +50,8 @@
             <button class=" btn btn-primary rounded-5 my-2" onclick="theNumber('1')">1</button>
             <button class=" btn btn-warning rounded-5 my-2" onclick="theNumber('+')">+</button>
 
-            <button class=" btn btn-primary rounded-5 my-2 "style="width: 44%; onclick="theNumber('0')">0</button>
+            <!-- <button class=" btn btn-primary rounded-5 my-2 " onclick="theNumber"('0')>0</button> -->
+            <button class=" btn btn-primary rounded-5 my-2" onclick="theNumber('0')" style="width: 44%;">0</button>
             <button class=" btn btn-dark rounded-5 my-2" onclick="theNumber('.')">.</button>
             <button class=" btn btn-warning rounded-5 my-2" onclick="calculate()">=</button>
 
